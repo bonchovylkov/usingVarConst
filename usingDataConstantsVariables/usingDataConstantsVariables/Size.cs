@@ -1,10 +1,10 @@
 ﻿public class Size
 {
-    private double width = 0;
-    private double height = 0;
+    public double Width {get;set;};
+    public double Height{get;set;};
     public Size(double width, double hight)
     {
-        this.width = width;
-        this.height = hight;
+        this.Width = width;
+        this.Height = hight;
     }
 }
